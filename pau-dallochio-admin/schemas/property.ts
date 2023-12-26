@@ -33,7 +33,7 @@ export default defineType({
     }),
     defineField({
       name: 'currency',
-      title: 'Tipo',
+      title: 'Moneda',
       type: 'reference',
       to: {type: 'currency'},
     }),
