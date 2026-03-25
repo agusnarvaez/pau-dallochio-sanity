@@ -1,5 +1,5 @@
 {
-  "name": "pau-dallochio-admin",
+  "name": "paula-dallochio-admin",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "sanity dev",
     "start": "sanity start",
+    "lint": "eslint .",
     "build": "sanity build",
+    "build:ci": "sanity build",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy"
   },
